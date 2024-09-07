@@ -12,3 +12,5 @@ git cat filename                查看文件
 git reflog                      查看命令历史
 git reset --hard commit_id      版本更替
 HEAD^  HEAD^^  ···   HEAD~100
+git checkout -- filename        工作区回退到上一次add或commit
+git reset HEAD filename         暂缓区内容回退至工作区
