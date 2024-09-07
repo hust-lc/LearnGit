@@ -1,8 +1,14 @@
 mkdir   创建目录
 cd      切换目录
 pwd     查看当前目录
-git init                将其转化为git仓库管理项目
-git add filename        将文件加入仓库
-git commit -m "target"  将修改提交到仓库
-git status              查看工作区状态
-git differ filename     查看修改
+git init                        将其转化为git仓库管理项目
+git add filename                将文件加入仓库
+git commit -m "target"          将修改提交到仓库
+git status                      查看工作区状态
+git differ filename             查看修改
+git log                         查看提交历史
+git log --pretty=oneline
+git cat filename                查看文件
+git reflog                      查看命令历史
+git reset --hard commit_id      版本更替
+HEAD^  HEAD^^  ···   HEAD~100
